@@ -1,8 +1,25 @@
 aid: taxfix
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/taxfix.png
 name: Taxfix
-description: 'Taxfix is a company surfaced as a portfolio company of creandum, index-ventures, speedinvest
-  and added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Taxfix is a Berlin-based fintech that lets individuals and self-employed people in Germany
+  prepare and file their annual income tax return from a mobile app or web browser. Users either answer
+  a guided set of roughly 70 questions to self-file (Taxfix Basic) or hand the return to an independent
+  tax expert via the Expert Service, with data transmitted to the tax authority over the official ELSTER
+  interface. The company reports more than 10 million tax returns filed and over 5 billion euros in refunds.
+  Taxfix is a consumer (B2C) product and does not publish a public developer API, developer portal, or
+  API documentation; this profile captures its public identity and domain-security posture. Backed by
+  Creandum, Index Ventures and Speedinvest.'
 url: https://raw.githubusercontent.com/api-evangelist/taxfix/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Fintech
+- Tax
+- Taxes
+- Tax Filing
+- Personal Finance
+- Germany
+- Mobile
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,4 +49,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.taxfix.de/
+  url: https://taxfix.de/
+- type: Pricing
+  url: https://taxfix.de/kosten/
+- type: Blog
+  url: https://taxfix.de/ratgeber/
+- type: Support
+  url: https://support.taxfix.de/hc/de
+- type: PrivacyPolicy
+  url: https://taxfix.de/datenschutz/
+- type: TermsOfService
+  url: https://taxfix.de/agb/
+- type: DomainSecurity
+  url: security/taxfix-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
