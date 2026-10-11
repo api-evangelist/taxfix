@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "taxfix",
+    "captured_at": "2026-10-11T193317",
+    "source_url": "https://taxfix.de/",
+    "source_type": "Website",
+    "file": "taxfix-2026-10-11T193317.png",
+    "bytes": 304283,
+    "capture": "playwright-local"
+  }
+]
